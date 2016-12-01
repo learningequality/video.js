@@ -100,7 +100,8 @@ var parseCues = function parseCues(srcContent, track) {
  */
 var loadTrack = function loadTrack(src, track) {
   var opts = {
-    uri: src
+    uri: src,
+    responseType: 'arraybuffer'
   };
   var crossOrigin = (0, _url.isCrossOrigin)(src);
 
