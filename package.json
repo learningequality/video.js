@@ -40,7 +40,7 @@
     "videojs-font": "2.0.0",
     "videojs-ie8": "1.1.2",
     "videojs-swf": "5.1.0",
-    "videojs-vtt.js": "0.12.1",
+    "videojs-vtt.js": "git://github.com/mozilla/vtt.js.git#master",
     "xhr": "2.2.0"
   },
   "devDependencies": {
